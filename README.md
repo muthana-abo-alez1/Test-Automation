@@ -37,7 +37,11 @@ To make sure the design is accurate, this test verifies that certain aspects and
 
 
 
-https://github.com/LoaiMasri1/goal-e2e/assets/92632582/5551d551-a486-4713-b65a-2ffd091bb4d7
+
+https://github.com/muthana-abo-alez1/Test-Automation/assets/92632582/27ae5979-e146-47e9-a4c0-925c6485a9ca
+
+
+
 
 
 
@@ -95,5 +99,8 @@ This test checks the presence of the search box on the page.
 ### 16-"Check the columns in the staff table":
 This test verifies the presence of specific columns in the staff table, such as Username, First Name, Last Name, Email, Goal, Staff, Student, Observe, and Academic.
 
-https://github.com/LoaiMasri1/goal-e2e/assets/92632582/6efb7b94-647a-438f-a82a-bd3e8e1a1c25
+
+
+https://github.com/muthana-abo-alez1/Test-Automation/assets/92632582/43b70964-647f-4a80-8592-4f64bf511db4
+
 
