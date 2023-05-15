@@ -2,48 +2,11 @@
 For GOALS website
 ## GOALs E2E
 
-## Staff Page
-- Test the staff add feature
-- Test the staff edit feature
-- Test the staff delete feature
-- Test the staff search feature
-
-## Test Case's
-- TC1 - Verify the required field validation
-- TC2 - Verify the add staff function add a new staff member correctly
-- TC3 - Verify that the list of staff members is updated correctly after adding a staff member
-- TC4 - Verify that duplicate staff members cannot be added
-- TC5 - Verify the search function returns accurate results
-- TC6 - Verify that the edit staff function is accessible from the staff list
-- TC7 - Verify that the changes made to the staff member's information are reflected in the staff list
-- TC8 - Verify that the "cancel" button in the confirmation message works correctly
-- TC9 - Verify that the "delete" button in the confirmation message works correctly
-- TC10 - Verify that a staff member can be deleted successfully
-- TC11 - Verify that a staff member deleted successfully
-
-## Test Data
-you can find the data in the env section in the `cypress.config.json` file
-
 ## How to run the test
 - Clone the repo
 - run `npm install`
 - run `npm run e2e`
 - run the test from the cypress runner
-
-## Video for my test
-
-https://github.com/LoaiMasri1/goal-e2e/assets/90678867/207e5cb0-7fb3-4551-8965-a1d09876ccdd
-
-#### for the edit i sumulate that the enter key will hitted i tried differante ways to hit the enter key such as:
-- cy.get('input').trigger('keydown', { keyCode: 13 });
-- cy.get('input').type('{enter}', { force: true });
-- cy.get('input').type('Text{enter}');
-- cy.get('input').type('{enter}');
-
-
-
-
-# goal-e2e
 ## Goals page : 
 
 The test suite begins by utilizing the beforeEach hook to set the page's<br>
